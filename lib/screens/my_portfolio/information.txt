@@ -1,0 +1,24 @@
+in my_portfolio
+
+                1 >>>>> portfolio_home  class
+1: i wrap container over scafffold
+2: then i take column()
+3: in column i takes childrens [1. circular avtor, 2. text, 3. expended(container)]
+4: in expended(container) i'm showing all my info from (detail class)
+
+                2 >>>> card  class
+1: i take stck two take two container on each other
+2: lower container is for gradient (use as a beautiful background for uper container)
+3: uper container is for my detail (like name, d2nepartment) and its size is 10 pexal smaller then lower one
+4: i take detail as a constructor to easily add more info
+
+                3 >>>> icon class
+1: i take stck two take two container on each other
+2: lower container is for gradient (use as a beautiful background for uper container)
+3: uper container is for icon (like name, department) and its size is 10 pexal smaller then lower one
+4: i take detail as a constructor to easily add more info
+
+                4 >>> Detail class
+1: in detail class i take column() which contain row as childrens
+2: in row i have two childrens one is icon class and 2nd is card class
+3: i call this detail class in my portfolio_home(expended(container))
